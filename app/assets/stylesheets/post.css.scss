@@ -1,0 +1,42 @@
+.main-wrapper {
+  margin-top: 100px
+}
+
+.posts-wrapper {
+  padding-top: 40px;
+  margin: 0 auto;
+  max-width: 642px;
+  width: 100%;
+}
+
+.post {
+  background-color: #fff;
+  border-color: #edeeee;
+  border-style: solid;
+  border-radius: 3px;
+  border-width: 1px;
+  margin-bottom: 60px;
+}
+
+.post-head {
+  height: 64px;
+  padding: 14px 20px;
+  color: #125688;
+  font-size: 15px;
+  line-height: 18px;
+  .thumbnail {}
+  .name {
+    display: block;
+  }
+}
+
+.image {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.description {
+  padding: 24px 24px;
+  font-size: 15px;
+  line-height: 18px;
+}

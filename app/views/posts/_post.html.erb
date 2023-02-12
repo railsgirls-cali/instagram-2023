@@ -1,7 +1,15 @@
-<div id="<%= dom_id post %>">
-  <p>
-    <strong>Description:</strong>
-    <%= post.description %>
-  </p>
-
+<div id="<%= dom_id post %>" class="posts-wrapper row">
+  <div class="post">
+    <div class="image center-block">
+      <%= image_tag post.squared_img, class:'img-responsive' %>
+    </div>
+    <div class="post-head">
+      <div class="name">
+        <%= post.user_name if post.user %>
+      </div>
+    </div>
+    <p class="description">
+      <%= post.description %>
+    </p>
+  </div>
 </div>
