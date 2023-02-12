@@ -1,8 +1,7 @@
-<h1>New post</h1>
-
-<%= render "form", post: @post %>
-
-<br>
+<div class="form-wrapper">
+  <h2>Crear un post</h2>
+  <%= render "form", post: @post %>
+</div>
 
 <div>
   <%= link_to "Back to posts", posts_path %>
