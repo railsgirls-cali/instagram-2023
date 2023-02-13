@@ -5,7 +5,7 @@ class Post < ApplicationRecord
   has_one_attached :image
 
   def user_name
-    user.email
+    user.name || user.email
   end
 
   def squared_img
