@@ -6,7 +6,7 @@
     <div class="post-bottom">
       <div class="post-head">
         <div class="avatar">
-          <%= image_tag "https://robohash.org/#{post.user.email}.png?set=set4" %>
+          <%= image_tag "https://robohash.org/#{post.user&.email}.png?set=set4" %>
         </div>
         <div class="user-name">
           <%= post.user_name if post.user %>
